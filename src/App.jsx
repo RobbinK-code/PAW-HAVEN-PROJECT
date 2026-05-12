@@ -13,12 +13,24 @@ import Contact from "./pages/Contact";
 
 function App() {
   
-
   return (
-    <>
-      
-    </>
-  )
+    <div>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/adopt" element={<AdoptNow />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/donate" element={<DonateNow />} />
+        <Route path="/report-case" element={<ReportCase />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
+   
