@@ -72,3 +72,4 @@ function PetCard({ pet, onDelete }) {
   );
 }
 
+export default PetCard;
