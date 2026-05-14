@@ -6,3 +6,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
