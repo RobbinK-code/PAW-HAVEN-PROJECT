@@ -61,4 +61,14 @@ function PetCard({ pet, onDelete }) {
           <strong>Address:</strong> {pet.owner_address}
         </p>
 
-        
+        <button
+          className="delete-btn"
+          onClick={() => onDelete(pet.id)}
+        >
+          Remove Pet
+        </button>
+      </div>
+    </div>
+  );
+}
+
