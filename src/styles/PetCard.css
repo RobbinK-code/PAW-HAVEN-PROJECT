@@ -10,3 +10,7 @@
   height: 250px;
   object-fit: cover;
 }
+
+.pet-info {
+  padding: 20px;
+}
