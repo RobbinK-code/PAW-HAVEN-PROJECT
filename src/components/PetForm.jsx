@@ -168,3 +168,5 @@ function PetForm({ onAddPet }) {
     </form>
   );
 }
+
+export default PetForm;
