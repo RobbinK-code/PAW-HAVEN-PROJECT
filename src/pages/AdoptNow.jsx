@@ -13,5 +13,20 @@ function AdoptNow() {
       .catch((error) => console.log(error));
   }, []);
 
+  // Add new pet
+  function handleAddPet(newPet) {
+    fetch("http://localhost:3000/pets", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newPet),
+    })
+      .then((res) => res.json())
+      .then((addedPet) => {
+        setPets([...pets, addedPet]);
+      });
+  }
+
   
 }
