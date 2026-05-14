@@ -49,5 +49,118 @@ function PetForm({ onAddPet }) {
     });
   }
 
-  
+  return (
+    <form className="pet-form" onSubmit={handleSubmit}>
+      <h2>Add Pet For Adoption</h2>
+
+      <input
+        type="text"
+        name="pet_name"
+        placeholder="Pet Name"
+        value={formData.pet_name}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="pet_type"
+        placeholder="Dog or Cat"
+        value={formData.pet_type}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="breed"
+        placeholder="Breed"
+        value={formData.breed}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="age"
+        placeholder="Age"
+        value={formData.age}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="gender"
+        placeholder="Gender"
+        value={formData.gender}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="image_url"
+        placeholder="Image URL"
+        value={formData.image_url}
+        onChange={handleChange}
+      />
+
+      <input
+        type="number"
+        name="adoption_fee"
+        placeholder="Adoption Fee"
+        value={formData.adoption_fee}
+        onChange={handleChange}
+      />
+
+      <input
+        type="date"
+        name="adoption_date"
+        value={formData.adoption_date}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="owner_name"
+        placeholder="Owner Name"
+        value={formData.owner_name}
+        onChange={handleChange}
+      />
+
+      <input
+        type="email"
+        name="owner_email"
+        placeholder="Owner Email"
+        value={formData.owner_email}
+        onChange={handleChange}
+      />
+
+      <input
+        type="text"
+        name="owner_address"
+        placeholder="Owner Address"
+        value={formData.owner_address}
+        onChange={handleChange}
+      />
+
+      <div className="checkbox-group">
+        <label>
+          <input
+            type="checkbox"
+            name="vaccinated"
+            checked={formData.vaccinated}
+            onChange={handleChange}
+          />
+          Vaccinated
+        </label>
+
+        <label>
+          <input
+            type="checkbox"
+            name="spayed_neutered"
+            checked={formData.spayed_neutered}
+            onChange={handleChange}
+          />
+          Spayed / Neutered
+        </label>
+      </div>
+
+      
 }
