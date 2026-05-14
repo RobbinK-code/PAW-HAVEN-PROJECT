@@ -162,5 +162,9 @@ function PetForm({ onAddPet }) {
         </label>
       </div>
 
-      
+      <button type="submit">
+        Add Pet
+      </button>
+    </form>
+  );
 }
