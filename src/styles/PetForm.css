@@ -13,3 +13,12 @@
   border-radius: 8px;
 }
 
+.pet-form button {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 18px;
+}
