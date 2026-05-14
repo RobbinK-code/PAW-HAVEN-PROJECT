@@ -39,6 +39,17 @@ function AdoptNow() {
     setPets(updatedPets);
   }
 
-  
+  return (
+    <div className="adopt-page">
+      <div className="adopt-header">
+        <h1>Pets Available for Adoption</h1>
+
+        <p>
+          Give rescued cats and dogs a loving forever home.
+        </p>
+      </div>
+
+      
+      
 
 }
