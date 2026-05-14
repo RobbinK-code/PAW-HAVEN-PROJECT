@@ -28,5 +28,17 @@ function AdoptNow() {
       });
   }
 
+  // Delete pet
+  function handleDelete(id) {
+    fetch(`http://localhost:3000/pets/${id}`, {
+      method: "DELETE",
+    });
+
+    const updatedPets = pets.filter((pet) => pet.id !== id);
+
+    setPets(updatedPets);
+  }
+
   
+
 }
