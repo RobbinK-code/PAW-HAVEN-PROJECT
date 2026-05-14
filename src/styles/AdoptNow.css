@@ -6,3 +6,8 @@
   text-align: center;
   margin-bottom: 40px;
 }
+
+.adopt-header h1 {
+  font-size: 50px;
+  color: #1d4ed8;
+}
