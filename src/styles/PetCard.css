@@ -14,3 +14,7 @@
 .pet-info {
   padding: 20px;
 }
+
+.pet-info h2 {
+  color: #1d4ed8;
+}
