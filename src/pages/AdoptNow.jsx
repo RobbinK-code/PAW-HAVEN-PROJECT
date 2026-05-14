@@ -65,3 +65,5 @@ function AdoptNow() {
     </div>
   );
 }
+
+export default AdoptNow;
