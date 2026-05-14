@@ -49,10 +49,8 @@ function AdoptNow() {
         </p>
       </div>
 
-      {/* Add Pet Form */}
       <PetForm onAddPet={handleAddPet} />
 
-      {/* Pets Grid */}
       <div className="pets-grid">
         {pets.map((pet) => (
           <PetCard
