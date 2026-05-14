@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PetCard from "../components/PetCard";
 import PetForm from "../components/PetForm";
+import "../styles/AdoptNow.css";
 
 function AdoptNow() {
   const [pets, setPets] = useState([]);
